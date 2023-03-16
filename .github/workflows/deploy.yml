@@ -26,4 +26,5 @@ jobs:
         run: rsync -acp --delete
           --exclude '.gitignore'
           --exclude '.github/'
+          --exclude '.git/'
           ./ ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}:/home/a0761558/domains/maxim-dev.ru/public_html/test/

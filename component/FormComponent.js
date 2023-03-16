@@ -2,7 +2,7 @@ import {template} from "./assets/template.js";
 import {Dom} from "./core/Dom.js";
 import {http} from "./core/Http.js";
 import {debounce} from "./core/Helpers.js";
-import {Store} from "./store/store.js";
+import {Store} from "./store/Store.js";
 
 /**
  * Основной класс компонента
