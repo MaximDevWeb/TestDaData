@@ -72,7 +72,6 @@ export class Dom {
    * @param errorElem
    */
   static showError(errorElem) {
-    console.log(errorElem);
     errorElem.classList.remove('fc_invisible');
 
     setTimeout(() => {

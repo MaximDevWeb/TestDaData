@@ -70,7 +70,7 @@ class FormComponent extends HTMLElement {
    * @return {Promise<unknown>}
    */
   getData(value) {
-    return http.post('api/4_1/rs/suggest/party/df', {query: value})
+    return http.post('api/4_1/rs/suggest/party', {query: value})
       .then(response => {
         this.#store.setList(response.suggestions);
       })
